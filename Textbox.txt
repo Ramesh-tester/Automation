@@ -2,5 +2,5 @@ System.setProperty("webdriver.chrome.driver","C:\\CHROMEDRIVER\\chromedriver.exe
 WebDriver d=new ChromeDriver();
 d.get("https://www.amazon.in/");
 d.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-d.findElement(By.id("twotabsearchtextbox")).sendKeys("umbrella");
+d.findElement(By.id("twotabsearchtextbox")).sendKeys("Raincoat");
 d.findElement(By.id("nav-search-submit-button")).click();
